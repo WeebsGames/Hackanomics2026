@@ -6653,11 +6653,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3022693849685739440, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_ForwardFriction.m_AsymptoteValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022693849685739440, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteSlip
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3022693849685739440, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022693849685739440, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteValue
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3081254273145682130, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
@@ -6857,11 +6865,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6619841884257668232, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_ForwardFriction.m_AsymptoteValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619841884257668232, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteSlip
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6619841884257668232, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619841884257668232, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteValue
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6718881379499679081, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
@@ -6897,11 +6913,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6884966772074375462, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_ForwardFriction.m_AsymptoteValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884966772074375462, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteSlip
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6884966772074375462, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884966772074375462, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteValue
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7001886479459554720, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
@@ -6929,11 +6953,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8167673679723672996, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_ForwardFriction.m_AsymptoteValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167673679723672996, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteSlip
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8167673679723672996, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167673679723672996, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
+      propertyPath: m_SidewaysFriction.m_AsymptoteValue
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8442562626842887848, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
@@ -7032,7 +7064,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812244032}
   serializedVersion: 5
-  m_Mass: 1500
+  m_Mass: 3000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
