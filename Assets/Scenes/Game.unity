@@ -2740,7 +2740,7 @@ MonoBehaviour:
   wheelModel: {fileID: 1812244039}
   WheelCollider: {fileID: 0}
   steerable: 1
-  motorized: 1
+  motorized: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -6163,7 +6163,7 @@ MonoBehaviour:
   wheelModel: {fileID: 1812244038}
   WheelCollider: {fileID: 0}
   steerable: 1
-  motorized: 1
+  motorized: 0
 --- !u!1001 &1717824283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6950,11 +6950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022693849685739440, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3022693849685739440, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3081254273145682130, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7162,11 +7162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6619841884257668232, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6619841884257668232, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6718881379499679081, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_Mesh
@@ -7210,11 +7210,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6884966772074375462, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6884966772074375462, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7001886479459554720, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_Name
@@ -7250,11 +7250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8167673679723672996, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8167673679723672996, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_SidewaysFriction.m_AsymptoteValue
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8442562626842887848, guid: 52316064ab582df41905b92dcad95fd1, type: 3}
       propertyPath: m_Mesh
