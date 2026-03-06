@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
+using Unity.VisualScripting;
 
 public class CarControl : MonoBehaviour
 {
@@ -16,6 +18,9 @@ public class CarControl : MonoBehaviour
     
     [Header("Input Actions")]
     public InputActionReference moveAction;
+
+    [Header("OtherObjects")]
+    public TMP_Text speedText;
 
     private void OnEnable()
     {
@@ -39,6 +44,8 @@ public class CarControl : MonoBehaviour
 
         // Get all wheel components attached to the car
         wheels = GetComponentsInChildren<WheelControl>();
+
+        speedText.text = "Speed: " + rigidBody.transform.forward.magnitude;
     }
 
     // FixedUpdate is called at a fixed time interval 
@@ -84,5 +91,7 @@ public class CarControl : MonoBehaviour
                 wheel.WheelCollider.brakeTorque = Mathf.Abs(vInput) * brakeTorque;
             }
         }
+
+        speedText.text = "Speed: " + rigidBody.transform.forward.magnitude;
     }
 }
